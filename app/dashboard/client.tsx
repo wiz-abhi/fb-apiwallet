@@ -216,7 +216,7 @@ export default function DashboardClient({
             className="bg-indigo-600 hover:bg-indigo-700"
           >
             <Key className="mr-2 h-4 w-4" />
-            {isLoading ? "Generating..." : "Generate New API Key"}
+            {isLoading ? "Generating.." : "Generate New API Key"}
           </Button>
         </div>
 
